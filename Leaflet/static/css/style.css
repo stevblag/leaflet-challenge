@@ -1,0 +1,30 @@
+/* remove default margin & padding from body */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* set map, body & html to 100% screen size */
+#map, body, html {
+  height: 100%;
+}
+
+/* legend style */
+.legend {
+padding: 5px 10px;
+background: white;
+box-shadow: 2px 2px 2px #333333;
+border-radius: 5px;
+}
+
+h3 {
+margin: 0px;
+padding: 2px;
+font-family: Helvetica;
+}
+
+p {
+margin: -5px;
+padding: -6px;
+font-family: Helvetica;
+}
